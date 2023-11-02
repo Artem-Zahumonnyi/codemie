@@ -13,4 +13,3 @@ EXPOSE 8080
 
 ENTRYPOINT ["java"]
 CMD ["-jar", "/app.jar"]
-
