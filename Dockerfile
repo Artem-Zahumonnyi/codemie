@@ -11,5 +11,6 @@ COPY --from=builder /usr/src/app/target/*.jar /app.jar
 
 EXPOSE 8080
 
+
 ENTRYPOINT ["java"]
 CMD ["-jar", "/app.jar"]
